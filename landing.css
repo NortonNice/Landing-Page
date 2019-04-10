@@ -3,10 +3,43 @@ body {
     background-size: cover;
     background-position: center;
     font-family: 'Cormorant Upright', serif;
+    width: 100%;
+}
+
+html {
+    height: 100%;
+}
+
+#brand {
+    color: red;
 }
 
 #content {
     color: white;
     text-align: center;
-    padding-top: 25%;
+    padding-top: 20%;
+}
+
+h1 {
+    font-weight: bold;
+    font-size: 5em;
+}
+
+.fas {
+    padding-right: 5px;
+}
+
+hr {
+    width: 400px;
+    border-top: 1px solid #f8f8f8;
+    border-bottom: 1px solid rgba(o, o, o, .2);
+}
+
+.btn {
+    background-color: rgba(99, 102, 104, 0.651);
+    color: rgb(217, 233, 217);
+}
+
+.btn:hover{
+    background-color: rgba(99, 102, 104, 0.445);
 }
